@@ -22,7 +22,8 @@ public partial class FCM : System.Web.UI.Page
             {
                 body = "This is the message",
                 title = "This is the title",
-                click_action = "http://www.yahoo.com"
+                click_action = "http://www.yahoo.com",
+                icon ="https://cdn3.iconfinder.com/data/icons/basic-interface/100/notification-64.png"
             }
 
         };
