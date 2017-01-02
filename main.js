@@ -19,7 +19,7 @@
   // [START refresh_token]
   // Callback fired if Instance ID token is updated.
   messaging.onTokenRefresh(function() {
-    messaging.getToken()
+    return messaging.getToken()
     .then(function(refreshedToken) {
       console.log('Token refreshed.');
       // Indicate that the new Instance ID token has not yet been sent to the
