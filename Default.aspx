@@ -6,8 +6,8 @@
 <head runat="server">
 
     <title>Firebase Cloud Messaging Example</title>
-    <script src="https://www.gstatic.com/firebasejs/3.6.4/firebase.js"></script>
-    <link rel="manifest" href="/manifest.json">
+    <link rel="manifest" href="manifest.json">
+    <script src="https://www.gstatic.com/firebasejs/3.5.3/firebase.js"></script>
 </head>
 <body>
     <form id="form1" runat="server">
